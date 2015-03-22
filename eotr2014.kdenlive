@@ -392,6 +392,51 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer in="0" out="1445" id="171_2">
+  <property name="mlt_type">producer</property>
+  <property name="length">1446</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/EOTR Footage/video-2014-08-31-16-21-21.mp4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30.0423</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">inf</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">17013119</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">16000</property>
+  <property name="meta.media.1.codec.channels">1</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">61332</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.major_brand.markup">3gp4</property>
+  <property name="meta.attr.minor_version.markup">768</property>
+  <property name="meta.attr.compatible_brands.markup">3gp43gp6</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">721</property>
+  <property name="meta.media.frame_rate_den">24</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <producer in="0" out="956" id="87_2">
   <property name="mlt_type">producer</property>
   <property name="length">957</property>
@@ -812,50 +857,13 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer in="0" out="161" id="165_2">
+ <producer in="0" out="189" id="slowmotion:165_2:0.85">
   <property name="mlt_type">producer</property>
-  <property name="length">162</property>
+  <property name="length">190</property>
   <property name="eof">pause</property>
-  <property name="resource">Videos/EOTR Footage/video-2014-08-31-14-01-16.mp4</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">30.035</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.frame_rate">inf</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">16927383</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">16000</property>
-  <property name="meta.media.1.codec.channels">1</property>
-  <property name="meta.media.1.codec.name">aac</property>
-  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">53822</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.major_brand.markup">3gp4</property>
-  <property name="meta.attr.minor_version.markup">768</property>
-  <property name="meta.attr.compatible_brands.markup">3gp43gp6</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="resource">Videos/EOTR Footage/video-2014-08-31-14-01-16.mp4?0.85</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">871</property>
-  <property name="meta.media.frame_rate_den">29</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
+  <property name="mlt_service">framebuffer</property>
  </producer>
  <producer in="0" out="1594" id="103_2">
   <property name="mlt_type">producer</property>
@@ -992,51 +1000,6 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer in="0" out="1445" id="171_2">
-  <property name="mlt_type">producer</property>
-  <property name="length">1446</property>
-  <property name="eof">pause</property>
-  <property name="resource">Videos/EOTR Footage/video-2014-08-31-16-21-21.mp4</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">30.0423</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.frame_rate">inf</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">17013119</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">16000</property>
-  <property name="meta.media.1.codec.channels">1</property>
-  <property name="meta.media.1.codec.name">aac</property>
-  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">61332</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.major_brand.markup">3gp4</property>
-  <property name="meta.attr.minor_version.markup">768</property>
-  <property name="meta.attr.compatible_brands.markup">3gp43gp6</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">721</property>
-  <property name="meta.media.frame_rate_den">24</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
- </producer>
  <producer in="0" out="497" id="154_2">
   <property name="mlt_type">producer</property>
   <property name="length">498</property>
@@ -1106,9 +1069,10 @@
   <entry in="1027" out="1103" producer="40_2"/>
   <blank length="556"/>
   <entry in="59" out="168" producer="47_2"/>
-  <blank length="323"/>
+  <blank length="279"/>
   <entry in="336" out="405" producer="51_2"/>
-  <blank length="1143"/>
+  <entry in="349" out="429" producer="171_2"/>
+  <blank length="1106"/>
   <entry in="85" out="212" producer="87_2"/>
   <entry in="778" out="882" producer="174_2"/>
   <blank length="309"/>
@@ -1126,14 +1090,13 @@
   <blank length="263"/>
   <entry in="216" out="314" producer="16_2"/>
   <blank length="77"/>
-  <entry in="89" out="136" producer="165_2"/>
+  <entry in="104" out="151" producer="slowmotion:165_2:0.85"/>
   <blank length="318"/>
   <entry in="837" out="939" producer="103_2"/>
   <blank length="369"/>
   <entry in="1379" out="1486" producer="159_2"/>
   <entry in="281" out="412" producer="170_2"/>
-  <entry in="349" out="411" producer="171_2"/>
-  <blank length="68"/>
+  <blank length="131"/>
   <entry in="72" out="171" producer="154_2">
    <filter in="138" out="171" id="fade_to_black">
     <property name="track">0</property>
@@ -1481,6 +1444,8 @@
   <property name="meta.media.colorspace">709</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <producer in="0" out="1348" id="43_1">
   <property name="mlt_type">producer</property>
@@ -1671,54 +1636,6 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer in="0" out="299" id="48_1">
-  <property name="mlt_type">producer</property>
-  <property name="length">300</property>
-  <property name="eof">pause</property>
-  <property name="resource">Videos/EOTR Footage/IMGA0085.MP4</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">29.97</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.frame_rate">29.97</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">16588947</property>
-  <property name="meta.attr.0.stream.creation_time.markup">2014-08-28 16:56:26</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">48000</property>
-  <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">aac</property>
-  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">255136</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2014-08-28 16:56:26</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.major_brand.markup">mp42</property>
-  <property name="meta.attr.minor_version.markup">1</property>
-  <property name="meta.attr.compatible_brands.markup">mp42avc1</property>
-  <property name="meta.attr.creation_time.markup">2014-08-28 16:56:26</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">30000</property>
-  <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
- </producer>
  <producer in="0" out="299" id="49_1">
   <property name="mlt_type">producer</property>
   <property name="length">300</property>
@@ -1759,6 +1676,13 @@
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <producer in="0" out="1259" id="50_1">
   <property name="mlt_type">producer</property>
@@ -2040,6 +1964,13 @@
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <producer in="0" out="958" id="57_1">
   <property name="mlt_type">producer</property>
@@ -3351,22 +3282,136 @@
   <entry in="89" out="180" producer="44_1"/>
   <entry in="315" out="389" producer="46_1"/>
   <entry in="80" out="148" producer="132_1"/>
-  <blank length="110"/>
-  <entry in="88" out="197" producer="48_1"/>
+  <blank length="220"/>
   <entry in="211" out="299" producer="49_1"/>
-  <entry in="899" out="1022" producer="50_1"/>
-  <blank length="70"/>
-  <entry in="197" out="287" producer="52_1"/>
-  <entry in="122" out="262" producer="54_1"/>
+  <entry in="899" out="978" producer="50_1"/>
+  <blank length="151"/>
+  <entry in="197" out="278" producer="52_1"/>
+  <entry in="150" out="262" producer="54_1"/>
   <entry in="21" out="101" producer="56_1"/>
-  <entry in="173" out="284" producer="58_1"/>
+  <entry in="173" out="284" producer="58_1">
+   <filter id="frei0r.balanc0r">
+    <property name="track">0</property>
+    <property name="version">0.3</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.balanc0r</property>
+    <property name="kdenlive_id">frei0r.balanc0r</property>
+    <property name="tag">frei0r.balanc0r</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="Neutral Color">0xffffffff</property>
+    <property name="Green Tint">173=0.0326</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="frei0r.sopsat">
+    <property name="track">0</property>
+    <property name="version">0.2</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.sopsat</property>
+    <property name="kdenlive_id">frei0r.sopsat</property>
+    <property name="tag">frei0r.sopsat</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="rSlope">173=0.05</property>
+    <property name="gSlope">173=0.05</property>
+    <property name="bSlope">173=0.05</property>
+    <property name="aSlope">173=0.05</property>
+    <property name="rOffset">173=0.5</property>
+    <property name="gOffset">173=0.5</property>
+    <property name="bOffset">173=0.5</property>
+    <property name="aOffset">173=0.5</property>
+    <property name="rPower">173=0.05</property>
+    <property name="gPower">173=0.05</property>
+    <property name="bPower">173=0.05</property>
+    <property name="aPower">173=0.05</property>
+    <property name="saturation">173=0.1</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="frei0r.levels">
+    <property name="track">0</property>
+    <property name="version">0.3</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.levels</property>
+    <property name="kdenlive_id">frei0r.levels</property>
+    <property name="tag">frei0r.levels</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="Channel">0.3</property>
+    <property name="Input black level">173=0</property>
+    <property name="Input white level">173=1</property>
+    <property name="Gamma">173=0.25</property>
+    <property name="Black output">173=0</property>
+    <property name="White output">173=1</property>
+    <property name="Show histogram">0</property>
+    <property name="Histogram position">0.3</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="frei0r.bezier_curves">
+    <property name="track">0</property>
+    <property name="version">0.3</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.curves</property>
+    <property name="kdenlive_id">frei0r.bezier_curves</property>
+    <property name="tag">frei0r.curves</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="Channel">0.5</property>
+    <property name="Luma formula">1</property>
+    <property name="Bézier spline">-1;-1#0;0#0.1;0.1|0.9;0.9#1;1#2;2</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="filter0">
+    <property name="track">0</property>
+    <property name="version">0.3</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.curves</property>
+    <property name="kdenlive_id">frei0r.bezier_curves</property>
+    <property name="tag">frei0r.curves</property>
+    <property name="kdenlive_ix">5</property>
+    <property name="Channel">0.5</property>
+    <property name="Luma formula">1</property>
+    <property name="Bézier spline">-1;-1#0;0#0.1;0.1|0.9;0.9#1;1#2;2</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="frei0r.hqdn3d">
+    <property name="track">0</property>
+    <property name="version">0.1</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.hqdn3d</property>
+    <property name="kdenlive_id">frei0r.hqdn3d</property>
+    <property name="tag">frei0r.hqdn3d</property>
+    <property name="kdenlive_ix">6</property>
+    <property name="Spatial">173=0.04</property>
+    <property name="Temporal">173=0.06</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="frei0r.d90stairsteppingfix">
+    <property name="track">0</property>
+    <property name="version">0.1</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">frei0r.d90stairsteppingfix</property>
+    <property name="kdenlive_id">frei0r.d90stairsteppingfix</property>
+    <property name="tag">frei0r.d90stairsteppingfix</property>
+    <property name="kdenlive_ix">7</property>
+    <property name="disable">1</property>
+   </filter>
+  </entry>
   <entry in="0" out="65" producer="61_1"/>
   <entry in="0" out="139" producer="57_1"/>
   <entry in="512" out="625" producer="58_1"/>
   <entry in="1084" out="1134" producer="84_1"/>
   <entry in="721" out="819" producer="82_1"/>
   <entry in="434" out="496" producer="88_1"/>
-  <entry in="379" out="563" producer="87_1"/>
+  <entry in="379" out="563" producer="87_1">
+   <filter id="tcolor">
+    <property name="track">0</property>
+    <property name="oversaturate_cr">165</property>
+    <property name="oversaturate_cb">168</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">tcolor</property>
+    <property name="kdenlive_id">tcolor</property>
+    <property name="tag">tcolor</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <entry in="1579" out="1689" producer="86_1"/>
   <blank length="122"/>
   <entry in="0" out="39" producer="5_1"/>
@@ -3382,7 +3427,7 @@
   <entry in="161" out="256" producer="141_1"/>
   <blank length="199"/>
   <entry in="243" out="269" producer="142_1">
-   <filter in="265" out="269" id="filter0">
+   <filter in="265" out="269" id="filter2">
     <property name="track">0</property>
     <property name="start">1</property>
     <property name="mlt_type">filter</property>
@@ -3409,8 +3454,8 @@
   <blank length="94"/>
   <entry in="52" out="138" producer="153_1"/>
   <blank length="69"/>
-  <entry in="495" out="601" producer="15_1"/>
-  <blank length="224"/>
+  <entry in="512" out="630" producer="15_1"/>
+  <blank length="212"/>
   <entry in="97" out="168" producer="94_1"/>
   <blank length="121"/>
   <entry in="545" out="669" producer="106_1"/>
@@ -3565,6 +3610,14 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="351" id="slowmotion:48_0:0.85">
+  <property name="mlt_type">producer</property>
+  <property name="length">352</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/EOTR Footage/IMGA0085.MP4?0.85</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
  </producer>
  <producer in="0" out="3177" id="86">
   <property name="mlt_type">producer</property>
@@ -4211,50 +4264,13 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer in="0" out="416" id="99">
+ <producer in="0" out="489" id="slowmotion:99:0.85">
   <property name="mlt_type">producer</property>
-  <property name="length">417</property>
+  <property name="length">490</property>
   <property name="eof">pause</property>
-  <property name="resource">Videos/EOTR Footage/video-2014-08-30-11-44-15.mp4</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">30.0417</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.frame_rate">inf</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.name">h264</property>
-  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">17012146</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">fltp</property>
-  <property name="meta.media.1.codec.sample_rate">16000</property>
-  <property name="meta.media.1.codec.channels">1</property>
-  <property name="meta.media.1.codec.name">aac</property>
-  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
-  <property name="meta.media.1.codec.bit_rate">58822</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.major_brand.markup">3gp4</property>
-  <property name="meta.attr.minor_version.markup">768</property>
-  <property name="meta.attr.compatible_brands.markup">3gp43gp6</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="resource">Videos/EOTR Footage/video-2014-08-30-11-44-15.mp4?0.85</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mlt_service">avformat</property>
-  <property name="meta.media.frame_rate_num">721</property>
-  <property name="meta.media.frame_rate_den">24</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
+  <property name="mlt_service">framebuffer</property>
  </producer>
  <producer in="0" out="1516" id="106_0">
   <property name="mlt_type">producer</property>
@@ -4401,8 +4417,21 @@
   <entry in="170" out="223" producer="32"/>
   <blank length="194"/>
   <entry in="646" out="684" producer="36"/>
-  <blank length="2537"/>
-  <entry in="404" out="531" producer="86"/>
+  <blank length="1001"/>
+  <entry in="120" out="229" producer="slowmotion:48_0:0.85"/>
+  <blank length="1426"/>
+  <entry in="404" out="531" producer="86">
+   <filter id="filter3">
+    <property name="track">0</property>
+    <property name="oversaturate_cr">190</property>
+    <property name="oversaturate_cb">190</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">tcolor</property>
+    <property name="kdenlive_id">tcolor</property>
+    <property name="tag">tcolor</property>
+    <property name="kdenlive_ix">1</property>
+   </filter>
+  </entry>
   <blank length="762"/>
   <entry in="0" out="91" producer="8"/>
   <blank length="62"/>
@@ -4416,7 +4445,7 @@
   <entry in="0" out="58" producer="138"/>
   <blank length="175"/>
   <entry in="385" out="448" producer="182">
-   <filter id="tcolor">
+   <filter id="filter4">
     <property name="track">0</property>
     <property name="oversaturate_cr">305</property>
     <property name="oversaturate_cb">190</property>
@@ -4437,8 +4466,8 @@
   <blank length="206"/>
   <entry in="125" out="201" producer="21"/>
   <blank length="120"/>
-  <entry in="208" out="277" producer="99"/>
-  <entry in="86" out="136" producer="106_0"/>
+  <entry in="247" out="315" producer="slowmotion:99:0.85"/>
+  <entry in="84" out="136" producer="106_0"/>
   <blank length="330"/>
   <entry in="94" out="176" producer="23"/>
   <entry in="0" out="106" producer="158_0"/>
@@ -4477,10 +4506,21 @@
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
+  <transition in="4761" out="4825" id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
  </tractor>
  <kdenlivedoc profile="atsc_1080i_5994" kdenliveversion="0.9.6" version="0.88" projectfolder="/home/alex/kdenlive">
   <customeffects/>
-  <documentproperties documentid="1425503265102" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-2" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/eotr2014.mpg" rendertwopass="0" renderplay="0" position="7482" proxyminsize="1000" renderstartguide="0" zoom="8" renderratio="0" rendercategory="MPEG-2" zoneout="1798" renderzone="0" renderendguide="0" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1425503265102" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-2" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/eotr201-pf4.mpg" rendertwopass="0" renderplay="0" position="2350" proxyminsize="1000" renderstartguide="0" zoom="4" renderratio="0" rendercategory="MPEG-2" zoneout="1798" renderzone="0" renderendguide="0" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
