@@ -527,21 +527,21 @@
     <property name="kdenlive_id">frei0r.brightness</property>
     <property name="tag">frei0r.brightness</property>
     <property name="kdenlive_ix">1</property>
-    <property name="Brightness">0.466</property>
+    <property name="Brightness">0.408</property>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
   <entry in="38" out="184" producer="7_3"/>
-  <blank length="712"/>
-  <entry in="433" out="563" producer="12_3"/>
-  <blank length="268"/>
-  <entry in="355" out="547" producer="101_3"/>
+  <blank length="703"/>
+  <entry in="433" out="548" producer="12_3"/>
+  <blank length="281"/>
+  <entry in="441" out="547" producer="101_3"/>
   <blank length="407"/>
   <entry in="107" out="248" producer="172_3"/>
-  <blank length="655"/>
+  <blank length="646"/>
   <entry in="502" out="1004" producer="45_3"/>
   <entry in="0" out="33" producer="83_3"/>
-  <blank length="120"/>
+  <blank length="85"/>
   <entry in="253" out="344" producer="78_3"/>
  </playlist>
  <producer in="0" out="4881" id="96_2">
@@ -1317,9 +1317,9 @@
   <entry in="4696" out="4788" producer="96_2"/>
   <blank length="172"/>
   <entry in="4154" out="4224" producer="96_2"/>
-  <blank length="94"/>
+  <blank length="142"/>
   <entry in="2803" out="2897" producer="96_2"/>
-  <blank length="259"/>
+  <blank length="211"/>
   <entry in="0" out="72" producer="98_2"/>
   <blank length="92"/>
   <entry in="35" out="174" producer="5_2"/>
@@ -1328,12 +1328,12 @@
   <blank length="175"/>
   <entry in="404" out="632" producer="8_2"/>
   <blank length="37"/>
-  <entry in="914" out="998" producer="8_2"/>
-  <blank length="131"/>
+  <entry in="914" out="989" producer="8_2"/>
+  <blank length="116"/>
   <entry in="303" out="413" producer="18_2"/>
-  <blank length="77"/>
+  <blank length="41"/>
   <entry in="736" out="864" producer="13_2"/>
-  <blank length="77"/>
+  <blank length="40"/>
   <entry in="56" out="265" producer="102_2"/>
   <blank length="126"/>
   <entry in="93" out="230" producer="170_2"/>
@@ -1342,12 +1342,12 @@
   <blank length="173"/>
   <entry in="0" out="286" producer="115_2"/>
   <blank length="44"/>
-  <entry in="255" out="308" producer="50_2"/>
+  <entry in="255" out="299" producer="50_2"/>
   <blank length="129"/>
   <entry in="195" out="568" producer="74_2"/>
   <blank length="34"/>
-  <entry in="0" out="119" producer="77_2"/>
-  <blank length="86"/>
+  <entry in="35" out="119" producer="77_2"/>
+  <blank length="92"/>
   <entry in="333" out="398" producer="80_2"/>
   <blank length="103"/>
   <entry in="335" out="425" producer="58_2"/>
@@ -1793,17 +1793,17 @@
   <entry in="1235" out="1409" producer="7_1"/>
   <blank length="171"/>
   <entry in="636" out="730" producer="100_1"/>
-  <blank length="327"/>
-  <entry in="345" out="421" producer="16_1"/>
-  <blank length="416"/>
+  <blank length="303"/>
+  <entry in="345" out="385" producer="16_1"/>
+  <blank length="379"/>
   <entry in="629" out="754" producer="107_1"/>
   <blank length="375"/>
   <entry in="571" out="834" producer="113_1"/>
   <blank length="140"/>
   <entry in="918" out="1019" producer="113_1"/>
-  <blank length="310"/>
+  <blank length="301"/>
   <entry in="0" out="246" producer="169_1"/>
-  <blank length="306"/>
+  <blank length="277"/>
   <entry in="491" out="593" producer="51_1"/>
  </playlist>
  <producer in="0" out="1647" id="95">
@@ -1914,7 +1914,7 @@
  </tractor>
  <kdenlivedoc profile="hdv_1080_50i" kdenliveversion="0.9.6" version="0.88" projectfolder="/home/alex/kdenlive">
   <customeffects/>
-  <documentproperties documentid="1479589331722" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-4/MP3" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/untitled.mp4" rendertwopass="0" renderplay="0" position="1601" proxyminsize="1000" renderstartguide="-1" zoom="5" renderratio="0" rendercategory="MPEG-4" zoneout="100" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1479589331722" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-4/MP3" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/untitled.mp4" rendertwopass="0" renderplay="0" position="5522" proxyminsize="1000" renderstartguide="-1" zoom="5" renderratio="0" rendercategory="MPEG-4" zoneout="100" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
@@ -1924,7 +1924,7 @@ p, li { white-space: pre-wrap; }
   <profileinfo width="1440" display_aspect_den="9" frame_rate_den="1" description="HDV 1440x1080i 25 fps" height="1080" frame_rate_num="25" display_aspect_num="16" progressive="0" sample_aspect_num="4" sample_aspect_den="3"/>
   <tracksinfo>
    <trackinfo blind="1" mute="0" locked="0" trackname="Audio 2" type="audio"/>
-   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 1" type="audio"/>
+   <trackinfo blind="1" mute="0" locked="1" trackname="Audio 1" type="audio"/>
    <trackinfo blind="0" mute="1" locked="0" trackname="Video 4"/>
    <trackinfo blind="0" mute="1" locked="0" trackname="Video 3"/>
    <trackinfo blind="0" mute="1" locked="0" trackname="Video 2"/>
