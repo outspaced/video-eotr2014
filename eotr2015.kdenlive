@@ -3559,7 +3559,20 @@
   <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist0">
-  <entry in="0" out="821" producer="95"/>
+  <blank length="42"/>
+  <entry in="42" out="821" producer="95">
+   <filter in="42" out="62" id="fade_from_black">
+    <property name="track">0</property>
+    <property name="start">0</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="end">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
  </playlist>
  <tractor title="Anonymous Submission" global_feed="1" in="0" out="7872" id="maintractor">
   <property name="meta.volume">1</property>
@@ -3618,7 +3631,7 @@
  </tractor>
  <kdenlivedoc profile="hdv_1080_50i" kdenliveversion="0.9.6" version="0.88" projectfolder="/home/alex/kdenlive">
   <customeffects/>
-  <documentproperties documentid="1479589331722" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-4/MP3" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/untitled.mp4" rendertwopass="0" renderplay="0" position="7793" proxyminsize="1000" renderstartguide="-1" zoom="5" renderratio="0" rendercategory="MPEG-4" zoneout="100" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1479589331722" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-4/MP3" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/untitled.mp4" rendertwopass="0" renderplay="0" position="7872" proxyminsize="1000" renderstartguide="-1" zoom="5" renderratio="0" rendercategory="MPEG-4" zoneout="100" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
