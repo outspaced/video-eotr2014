@@ -63,11 +63,13 @@
   <property name="meta.media.colorspace">601</property>
   <property name="meta.media.width">500</property>
   <property name="meta.media.height">500</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist2">
-  <blank length="490"/>
-  <entry in="1257" out="8639" producer="1_4">
-   <filter in="1257" out="1557" id="fadein">
+  <blank length="657"/>
+  <entry in="1424" out="8639" producer="1_4">
+   <filter in="1424" out="1518" id="fadein">
     <property name="track">0</property>
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
@@ -2150,6 +2152,20 @@
   <blank length="681"/>
   <entry in="502" out="644" producer="73_2"/>
  </playlist>
+ <producer in="0" out="124" id="191">
+  <property name="mlt_type">producer</property>
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource">Videos/EOTR 2015/TITLE CARD.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="loop">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="mlt_service">pixbuf</property>
+ </producer>
  <producer in="0" out="1170" id="97_1">
   <property name="mlt_type">producer</property>
   <property name="length">1171</property>
@@ -3447,7 +3463,8 @@
   <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist5">
-  <blank length="1343"/>
+  <entry in="0" out="124" producer="191"/>
+  <blank length="1218"/>
   <entry in="506" out="652" producer="97_1"/>
   <blank length="55"/>
   <entry in="0" out="91" producer="4_1"/>
@@ -3631,7 +3648,7 @@
  </tractor>
  <kdenlivedoc profile="hdv_1080_50i" kdenliveversion="0.9.6" version="0.88" projectfolder="/home/alex/kdenlive">
   <customeffects/>
-  <documentproperties documentid="1479589331722" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-4/MP3" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/untitled.mp4" rendertwopass="0" renderplay="0" position="7872" proxyminsize="1000" renderstartguide="-1" zoom="5" renderratio="0" rendercategory="MPEG-4" zoneout="100" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
+  <documentproperties documentid="1479589331722" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="1" renderprofile="MPEG-4/MP3" renderrescaleheight="240" zonein="0" renderrescale="0" renderscanning="0" renderurl="/home/alex/kdenlive/Edit 5.mp4" rendertwopass="0" renderplay="0" position="1169" proxyminsize="1000" renderstartguide="-1" zoom="4" renderratio="0" rendercategory="MPEG-4" zoneout="100" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
@@ -5538,6 +5555,7 @@ p, li { white-space: pre-wrap; }
    <metaproperty tool="" name="meta.attr.major_brand">isom</metaproperty>
    <metaproperty tool="" name="meta.attr.minor_version">512</metaproperty>
   </kdenlive_producer>
+  <kdenlive_producer duration="125" frame_size="1920x1080" in="0" analysisdata="" file_size="70604" aspect_ratio="1" out="124" file_hash="2b4473394b89fa821cd1b5adac6996c1" type="5" id="191" name="TITLE CARD.png" resource="/home/alex/Videos/EOTR 2015/TITLE CARD.png"/>
   <markers/>
   <groups/>
  </kdenlivedoc>
